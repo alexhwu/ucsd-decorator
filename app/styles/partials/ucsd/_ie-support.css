@@ -1,0 +1,26 @@
+/* IE7 and IE8 specifics */
+.tdr_nav_list li {
+  float: left; }
+
+.navbar-toggle, .nav-offcanvas {
+  display: none; }
+
+.tdr_search {
+  filter: none; }
+
+#tdr_nav {
+  position: relative;
+  z-index: 2; }
+
+.tdr_nav_list {
+  position: absolute;
+  z-index: 1; }
+
+.flexslider .flex-direction-nav li a {
+  background: 0; }
+
+.flexslider.alt .flex-direction-nav li a,
+.flexslider.alt .flex-caption {
+  background: 0;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#AA1986b4, endColorstr=#AA1986b4);
+  zoom: 1; }
